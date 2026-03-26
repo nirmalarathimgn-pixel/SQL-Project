@@ -2,48 +2,55 @@
 
 ## 📌 Overview
 
-This project analyzes an e-commerce dataset using SQL to extract meaningful business insights such as customer behavior, revenue trends, and product performance.
+This project analyzes e-commerce data using SQL to generate insights related to customer behavior, revenue trends, and product performance.
 
 ---
 
 ## 🧱 Database Structure
 
-### Tables Used:
+### Tables:
 
-* **customers** → Customer details (ID, Name, City)
-* **orders** → Order details (Order ID, Customer ID, Date)
-* **order_items** → Product-level details (Product, Category, Quantity, Price)
+* customers → customer details
+* orders → order details
+* order_items → product-level data
 
 ---
 
 ## 🎯 Objectives
 
-* Analyze total revenue
+* Calculate total revenue
 * Identify top customers
-* Find most popular product categories
-* Detect inactive customers
+* Analyze product categories
+* Detect inactive users
 * Perform customer segmentation
+* Track monthly revenue trends
+* Analyze customer order frequency
+* Calculate average order value
 
 ---
 
-## 🔍 Key SQL Concepts Used
+## 🔍 SQL Concepts Used
 
-* JOIN (Multiple tables)
+* JOIN
 * GROUP BY
 * ORDER BY
 * Aggregation (SUM, COUNT)
-* CASE WHEN (Segmentation)
-* Filtering (WHERE, HAVING)
+* CASE WHEN
+* LEFT JOIN
 
 ---
 
 ## 📊 Key Insights
 
-* 💰 **Revenue Analysis**: Total revenue helps evaluate overall business performance
-* 👤 **Top Customers**: A small group of customers contributes most of the revenue
-* 📦 **Product Trends**: Electronics category dominates sales
-* ⚠️ **Inactive Customers**: Some customers have not placed any orders (potential churn)
-* 🧠 **Segmentation**: Customers classified into High and Low value groups
+* 💰 Revenue shows overall business performance
+* 👤 Few customers contribute most of the revenue
+* 📦 Electronics category dominates sales
+* ⚠️ Some customers are inactive (churn risk)
+* 🧠 Customer segmentation helps target high-value users
+* 📈 Monthly trend shows growth pattern
+* 🔁 Frequent buyers indicate loyal customers
+* 💸 Average order value shows spending behavior
+* 💎 High-priced products contribute more revenue
 
 ---
 
@@ -64,13 +71,13 @@ ORDER BY total_spent DESC;
 ## 🛠 Tools Used
 
 * MySQL Workbench
-* DB Fiddle (for testing)
+* DB Fiddle
 * Visual Studio Code
 
 ---
 
 ## 📌 Conclusion
 
-This project demonstrates how SQL can be used to solve real-world business problems by analyzing structured data and generating actionable insights.
+This project demonstrates how SQL can be used to analyze structured data, generate business insights, and support decision-making in an e-commerce environment.
 
 ---
